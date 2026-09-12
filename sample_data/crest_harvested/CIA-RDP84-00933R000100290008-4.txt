@@ -1,0 +1,434 @@
+Approved Fqj ^ JRelease 2001 
+
+
+RDP84-009^.Q0Q1 00200008-^1 
+
+OOP 
+
+
+20 February 1981 
+
+
+25X1 
+
+
+MEMORANDUM FOR: Director of Data Processing 
+
+
+VIA: 
+
+FROM: 
+
+
+Inspector General 
+
+
+umer, Auait St af f 
+
+
+SUBJECT: 
+
+
+Report of Audit, Office of Data Processing, 
+
+For the Period 1 July 1978 - 30 September 1980 
+
+
+1. Attached is the subject report for your information. 
+
+2. This report summarizes the background, scope and results of 
+the Audit Staff's independent audit of the Office of Data Processing. 
+
+Please advise me of action taken on the recommendations contained in 
+the report. 
+
+3. We wish to express our appreciation for the cooperation and 
+assistance provided by members of your office during the audit. 
+
+25X1 
+
+
+Attachment : 
+
+As stated 
+
+Distribution 
+J)Kg. - D/ODP 
+1 - DDA 
+
+1 - 0/Comp/BMG 
+
+
+25X1 
+
+
+All portions of this 
+document are classified 
+SECRET 
+
+
+25X1 
+
+
+Approved For Release 2003/1 2/dTriCW->®P84-00933R0001 00290008-4 
+
+
+
+
+
+
+Approved FQf^elease 200^'^/^!^ |^||^-RDP84-009^0001 00290008-4 
+
+
+REPORT OF AUDIT 
+Office of Data Processing 
+
+For the Period 
+
+1 July 1978 - 30 September 1980 
+SUMMARY 
+
+1. Financial controls, procedures and records of the Office of Data 
+Processing (ODP) were in accordance with Agency regulations. Prior audit 
+recommendations, with the exception of one that pertains to disaster 
+recovery, were satisfactorily resolved . Minor administrtative matters, 
+including the need to better monitor prior fiscal year unliquidated obli- 
+gations, were discussed with responsible officials and resolved during the 
+audit. This report includes comments and recommendations concerning the 
+following : 
+
+a. formalizing the position of the Operations Security Officer; 
+
+b. completing a written disaster recovery plan for the two 
+computer centers; 
+
+c. improving fire safety in the Special Center; and 
+
+d. implementing technical data security controls. 
+
+
+SCOPE 
+
+2. The audit included a review of administrative functions to evalu- 
+ate the effectiveness of controls and procedures and to assure compliance 
+with Agency regulations. Financial and logistical transactions were 
+tested to determine that documentation, approvals and certifications were 
+in accordance with applicable accounting and reporting requirements and 
+
+to ensure that expenditures were within the scope of authorized activities. 
+
+3. The audit also included reviews and tests within both computer 
+centers to determine that established procedures and other documentation 
+were sufficient, adequate and followed to protect against potential 
+security and safety risks. A survey of ODP/Appl ications was performed to 
+identify the standards and procedures utilized for application systems 
+development. Because the ODP is still in the process of revising its 
+applications development standards, no tests were conducted to determine 
+use or compliance with those standards. 
+
+25X1 
+
+
+All portions of this 
+document are classified 
+SECRET 
+
+
+Approved For Release 
+
+
+
+
+
+
+Approved F^r/lelease 200^ |'^|jJ(g^RDP84-009^000 100290008-4 
+
+
+BACKGROUND 
+
+
+4. ODP provides a central computer service to satisfy automatic data 
+processing (ADP) requests from Agency components and to satisfy Intel- 
+ligence Community requirements as assigned. In per forming this service 
+ODP had as of 30 September 1980 a personnel ceiling 
+
+
+a. review and coordinate Agency proposals for the acquisition of 
+computer hardware (including word processing equipment), 
+software, and services; 
+
+b. operate two computer centers (Ruffing and Special) to provide 
+facilities and services for batch and interactive computer 
+processing, data base management, and on-line information 
+storage and retrieval; and 
+
+
+25X1 
+
+
+c. perform analysis of requirements for ADP services, develop 
+and implement application systems, and perform maintenance 
+and production control of completed application programs. 
+
+5. The OOP's operating budget for Fiscal Year 1980 is summarized as 
+follows : 
+
+
+25X1 
+
+
+2 
+
+
+SECRET 
+
+Approved For Release 2003/12/03 : CIA-RDP84-00933R0001 00290008-4 
+
+
+
+
+
+Approved F^Release 2003/12/03 : CIA-RDP84-009i5R0001 00290008-4 
+
+SECRET 
+
+
+DETAILED COMMENTS 
+
+
+Operations Security Officer 
+
+
+7. During the audit several potential security weaknesses and safety 
+hazards were observed in the two computer centers (primarily in the 
+Ruffing Center). When these problems were brought to the attention of the 
+ODP/Operations Security Officer, they were promptly corrected. The posi- 
+tion of Operations Security Officer was established by ODP on a temporary 
+basis to develop and implement a security awareness program for the two 
+computer centers. By OOP's account the security awareness program is suc- 
+cessful. The continuous enforcement of security and safety practices is 
+of vital importance to the Agency. The ODP should therefore formalize the 
+position of Operations Security Officer by making it a permanent position, 
+by writing a job description, and by giving the incumbent clear lines of 
+authority. 
+
+Recommendation #1 : Formally designate a position as Operations 
+Security Officer, establish written responsibilities for the 
+position, and have the incumbent report to the Deputy Director 
+ODP/Processing to ensure adequate authority to administer an 
+effective operations security program. 
+
+Disaster Recovery Plan 
+
+8. The prior report of audit discussed the need for a disaster 
+recovery plan to minimize the magnitude of service interruption in an 
+emergency situation. ODP informed the Audit Staff that it would develop a 
+methodology for determining the Agency's emergency ADP requirements; pre- 
+pare and cost out a plan; and with higher management approval undertake 
+the necessary preparation to execute the plan. The ODP has developed a 
+disaster plan that relies on moving critical applications to a surviving 
+center. ODP has not, however, identified or prioritized the critical 
+applications; planned for the move; nor tested the compatabi 1 ity of 
+either computer center with the other's data. Until these steps are 
+completed the current disaster plan cannot be considered sufficient for 
+actual use in an emergency. 
+
+Recommendation #2 : Identify and prioritize the Agency's emer- 
+gency ADP requirements and develop written operating procedures 
+to ensure a successful exchange of applications between the 
+two computer centers. Also provide for periodic updates and 
+tests of the plan after development. 
+
+
+3 
+
+
+Approved For Release 2003/1 
+
+
+'P84-00933R0001 00290008-4 
+
+
+
+Approved ^ Release 2003/1 2/^^^lj^F^84-00^R0001 00290008-4 
+
+
+Fire Safety 
+
+
+9. Improvements in fire safety are needed in the Special Center . 
+
+The Special Center is so filled with computer hardware and data storage 
+material that in case of fire it is questionable whether employees could 
+make a safe and orderly exit from the center. Safe exit from the tape 
+library is particularly doubtful. The OOP is aware of the problem, and 
+has requested an architectual study to provide sufficient and adequate 
+emergency exits. Until that study is completed OOP should continue to 
+seek to identify and implement interim means of improving fire safety 
+within the Special Center. 
+
+Recommendation #3 : Continue efforts to improve fire safety 
+within the Special Center. 
+
+Data Security Controls 
+
+10. For many years the ODP has recognized that technical security 
+controls to protect sensitive data were indadequate. In lieu of suffi- 
+cient technical controls manual procedures were applied. Improved techni- 
+cal security control systems have recently become available. The ODP 
+currently is installing one such system, called Access Control Facility - 
+2 (ACF-2). The ACF-2 requires a prolonged and carefully coordinated 
+period of implementation. Once fully implemented, ACF-2 should signifi- 
+cantly improve the security of sensitive computerized data. No additional 
+recommendation is thus considered necessary. 
+
+
+4 
+
+
+Approved For Release 2003/12/1 
+
+
+84-00933R0001 00290008-4 
+
+
+
+. ' Approved ^ Release 2003/12/03 : CIA-RDP84-00«d3R0001 00290008-4 
+
+ODP 81-203 / 
+
+1 7 FED 
+
+I 
+
+MEMORANDUM FOR: Chief, Audit Staff 
+
+FROM: Bruce T. Johnson 
+
+Director of Data Processing 
+
+\ SUBJECT: Report of Audit of Office of Data 
+
+, Processing as of 30 September 1980 
+
+Attached are ODP responses to the recommendations 
+contained in the subject report. For convenience we 
+have repeated each recommendation beside each ODP 
+response. 
+
+STAT 
+
+Att : a/s 
+
+
+
+Approved For Release 2003/12/03 : CIA-RDP84-00933R0001 00290008-4 
+
+
+
+
+
+r ■“ 
+
+Approved ^ Release 2003/12/03 : CIA-RDP84-00«^R0001 00290008-4 
+
+
+Report of Audit of Office of Data Processing 
+as of 30 Septmber 1980 
+
+
+ODP has reviewed the 3 recommendations that are c6ntained in your 
+Audit Report with the following comments: 
+
+
+Audit Staff Recommendation 
+
+#1: Formally designate a 
+
+position as Operations Security 
+Officer and have the incumbent 
+report to the Deputy Director 
+ODP/Processing to ensure adequate 
+authority to administer an oper- 
+ations security program. 
+
+
+ODP Response 
+
+We concur in your suggestion that 
+a position of Security Officer in 
+Operations Division be formally 
+established. In your explanation 
+of the issues, however, you stated 
+that "numerous potential security 
+weaknesses and safety hazards were 
+observed in the computer centers 
+(primarily in the Ruffing Center) . " 
+
+It is my understanding that yoii made 
+3 suggestions dealing with the 
+receptionist areas in the Ruffing 
+Center that were quickly implemented. 
+That hardly seems like "numerous 
+potential security weaknesses." 
+Concerning your statement about the 
+chain of command, I have designated 
+that this incumbent should report 
+to the Chief, Operations Division. 
+
+I have been assured by the Deputy 
+Director for Processing that he 
+will receive periodic reports on the 
+activities of this Security Officer. 
+
+
+#2: Identify and prioritize 
+
+the Agency ' s emergency ADP 
+requirements and develop written 
+operating procedures to ensure a 
+successful exchange of applica- 
+tions between the two computer 
+centers. Also 'provide for 
+periodic updates and tests of 
+the plan after development. 
+
+
+Concur. ODP will insure that the 
+major applications running in each 
+computer center can be executed in 
+the other. This process has already 
+started with running a large batch 
+Ruffing Center job in the Special 
+Center. In addition, two planning 
+documents will be written 
+(1) Definition of Responsibility 
+In Case of Disaster and (2) Restor- 
+ation Plan. The first document 
+deals with keeping ODP running with 
+its limited resources and the second 
+specifies the steps necessary to 
+restore the service that was destroyed. 
+
+
+Approved For Release 2003/12/03 : CIA-RDP84-00933R0001 00290008-4 
+
+
+
+Approved ^ Release 2003/12/03 : CIA-RDP84-009d^R0001 00290008-4 
+
+
+■ . 
+
+Audit Staff Recommendation ODP Response 
+
+#3: Continue efforts to improve Concur, 
+
+fire safety within the Special 
+STAf enter. 
+
+specified that ODP has a 
+
+
+
+Approved For Release 2003/12/03 : CIA-RDP84-00933R0001 00290008-4

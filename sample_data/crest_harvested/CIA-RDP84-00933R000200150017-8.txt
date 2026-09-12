@@ -1,0 +1,704 @@
+Approved For Release 2002/06/18 
+
+
+CIA-RbP^A0933R00Q2001 5001 7-8 
+
+
+D £>//? 7*9- y&// 
+
+R R9 - 
+
+2.6 6 , 2 ? ?<? 
+
+
+Deputy Director of Central Intelligence 
+
+Deputy Director for Administration 
+
+Establishment of Agency-wide AQP Profes- 
+sional Standards 
+
+a. Memo to BAG Members fm DDCI dtd 26 Jul 73, 
+subject: Management of Automatic Data 
+Processing Resources (ER 78-3760) 
+
+b. DDA memo to multiple adses dtd 28 Aug 78, 
+same subject (DDA 78-2966) 
+
+
+X. A ction Requested : This memorandum, transmits, for 
+your information and approval , the findings and recommends 
+tions of an intordirectorate task force on Agency -wide ADP 
+Professional Standards. 
+
+
+MEMORANDUM FOR: 
+FROM J 
+SUBJECT : 
+
+REFERENCES : 
+
+
+2 . Ba ckground : 
+
+a. Reference a., in its attachment , assigned 
+responsibility to the Deputy Director for Administration to 
+formally study the following issue: 
+
+"establish an. . .common, Agency-wide ADP 
+professional standards (feasibility studies, 
+requirements definition, specification stand- 
+ards, and programming standards to name a few).* 
+
+A report on the findings of this study were to be submitted 
+to you by 15 December 1973. This deadline was subsequently 
+extended to 15 February 1979. 
+
+b. In Reference b. , Mr. Blake asked the Director 
+of Data Processing to assume overall responsibility for the 
+study and appoint a chairman for the task force. E© also 
+asked the several addressees of that memorandum to nominate 
+representatives to the task force. 
+
+
+Approved For Release 2002/06/18 ; CIA»RDP84-00' r 933R66620015601 7-8 
+
+j h , 1j when sepc.<~~ ” 
+
+\ »vJ_ a a 
+
+
+3IFIEO. 
+
+
+;cm, 
+
+
+
+
+
+
+
+STATINTL 
+
+
+Approved For Release 2002/06/18 : CIA-RDP84-00933R0002001 5001 7-8 
+
+
+The task force was formed under the chairman - 
+
+Deputy Director for Applications, 
+fcu5y and makes 
+
+
+ship of 
+
+ODP. The attached report documents their 
+
+
+three recommendations for your approval . 
+
+
+3. Staff Position : The Director of Data Processing 
+and I believe that this report represents a sensible and 
+significant first step in establishing Agency-wide ADP Pro- 
+fessional Standards. This belief is shared by the members 
+of the task force, who represent the major Agency components 
+with an interest in this study, and who have concurred in 
+this report on behalf of their components , The implementa- 
+tion of the study's recommendations can be accomplished with 
+no direct impact on resources. The Director of Data Process- 
+ing is prepared to submit to me an annual report of progress 
+and accomplishments in implementing the recommendations. 
+
+
+4. R ecommends t ion : I recommend that you accept this 
+report and " approve “Tbs recommendations by signing this trans- 
+mittal memorandum. 
+
+
+
+
+
+Jl- 
+
+
+/ 5 ' / 
+
+Don I. Wcrtraan 
+
+
+APPROVED: 
+
+
+A S' 
+
+
+f ~ , A-ic. ' 
+
+Deputy Director for Central Intelligence 
+
+
+DISAPPROVED! 
+
+
+
+Deputy "oTrector ~For "Cehtraf TnteTlfg'smce ~ Date ' 
+
+
+Distribution: 
+
+Original & 1 - Addressee 
+
+1 - DCI Exec. Registry 
+
+2 - DDA 
+
+X ” O/D/ODP 
+
+1 - DD/A/ODP 
+
+2 - ODP Registry 
+
+O/D/ODP/CDMay, Jr.:caj/16 February 1979 
+Approved For Release 2002/06/18 ^CIA ; RpP84-iOCi933R0002001 5001 7-8 
+
+
+
+. UNCLASSIFIED 
+
+Approved For Rele^e 2002l^^^^l^^^ZR0002Q0^ . / 
+
+/■*> r J t< ( p / ■' 
+
+
+150017-8 
+
+
+(U) This paper is the third in a series of responses to four 
+ADP issues identified by the DDCI in his memorandum to EAG 
+members dated 16 December 1976 that should be addressed by 
+the EAG. The DDCI’s goal in identifying the issues was ta 
+"take positive steps during the coming year to improve central 
+management of our total ADP program." The first two issues 
+were discussed by the EAG on 31 March and 5 April 1977. Agree- 
+ment was reached on actions to improve senior management con- 
+trol of the month-to-month use of central services and to im- 
+prove top management's ability to plan future ADP resource 
+requirements. This paper discusses Issue 3 - that relating 
+to the issue of centralization vs. decentralization of ADP in 
+the Agency. The Issue is stated as follows . in the DDCI memo: 
+
+What balance should we be striving to achieve 
+
+facT?ftiSS tr ? liZ t d and dece ntxalized computer 
+v k understand that there are many 
+
+mplex balances involved, including dedicated 
+vs. massive machines, distributed vs. central 
+processing, and decentralized vs. centralized 
+systems development. " 
+
+(U) This paper approaches this issue by studying three aspects 
+
+of the centralization/decentralization issue: facilities, 
+professional personnel, and management. it takes stock of 
+the current situation and how we got here, examines the factors 
+bearing on the issue, then reaches some conclusions and pro- 
+vides recommendations for the EAG. The conclusions and recom- ' 
+mendations of this paper are summarized in the following 
+paragraphs. : 
+
+
+Approved For Release 
+
+
+20021061^8 : S (?IaW| 
+
+
+P84-00933R0002001 5001 7-8 
+
+
+UNCLASSIFIED 
+
+
+, % Approved For Release 2002/06/1 8 : CIA-RDP84-00933M0p20015p01 7-8 . , 
+
+(U) Tne Agency currently has a mix of contraTizecr/ciicentral- 
+
+ized ADP facilities which has evolved with little central 
+direction or overall plan. Technology hus made the mini- 
+computer an increasingly attractive alternative to the cen- 
+tral system and there are pressures to enploy more minicomputers 
+in the Agency. Many applications can be better satis fied' on 
+a minicomputer system, but case-by-case studies are needed to 
+make this determination. It is likely that decentralized 
+minicomputers will grow in the Agency at a much faster rate 
+than in the past. Large central general purpose computer 
+facilities will continue to be required for the foreseeable 
+future. No specific mix of centralized/decentralized ADP 
+facilities can or should be established by the Agency, but 
+better central planning is needed. Agency policies should not 
+inhibit the growth of minicomputers when they offer a better- 
+alternative to the central system. 
+
+(U) As more computer facilities are decentralized in the 
+Agency, it is important that more attention be given to main- 
+taining professional standards for ADP personnel who will 
+design and implement both the centralized and decentralized 
+facilities and applications. This is essential if we are to 
+maintain high quality ADP service in the Agency. A study should 
+be conducted on the desirability of an Agency-wide ADP profes- 
+sional career service. Also, a central source of professional 
+ADP advice and assistance should be available to user compo- 
+nents that are considering acquiring ADT systems, especially 
+
+
+Approved For Release 2U0270fi/$5IEK&RDP84-00933R000200150017-8 
+
+
+UNCLASSIFIED 
+
+
+. . Approved For R&lease 2002/06/18 ■ CIA-JRDRS4-00933M0020015001 7-8 , . . 
+
+minicomputers. user components should also be aoie to establish 
+
+their own ADP support groups, if they prefer. 
+
+(U) Currently, the Agency does not have any central policy, 
+planning, or management relating to the acquisition of dedi- 
+cated minicomputer facilities. At the same time, the Agency 
+is under increasing external pressure to speak with one v’bice 
+on ADP matters to external organizations who are dealing with 
+
+
+ADP policy, resource, and management issues. It is essential 
+that the Agency provide a high level central mechanism for 
+policy formulation, planning, and resource control of ADP, 
+
+* 
+
+and for representing the Agency's interests to these external 
+organizations. This is particularly important if we move 
+toward an increasingly decentralized environment. 
+
+(U) In summary, the recommendations are that: 
+
+a. - Minicomputers should continue to be employed 
+
+by the Agency where they offer a cost/ 
+effective alternative to the central system. 
+
+b. Responsibility should be assigned for pro- 
+viding Agency-wide technical support to 
+offices considering ADP systems, especially 
+minicomputers . 
+
+c. Responsibility should be assigned for pro- 
+viding Agency-wide long and short term ADP 
+planning. 
+
+d. Responsibility should be assigned for formu- 
+lating ADP. policy for the Agency and for 
+representing the Agency's ADP interests to 
+external organizations. 
+
+e. Responsibility should be assigned for con- 
+ducting a feasibility study of an Agency- 
+wide ADP professional career service. 
+
+f. Resources should be provided to fulfill the 
+above responsibilities as assigned. 
+
+
+3 
+
+
+Approved For Release 2002/06/18 : CIA-RDP84-00933R0002001 5001 7-8 
+
+UNCLASSIFIED 
+
+
+..... j- -» \ « r» 
+
+
+Approved For Release 2002766/1 S : ClA-^P62-(^0933W(|20m5001^^ ^ 
+
+
+DDA 78- 2966/2 
+
+
+28 August 1978 
+
+
+MEMORANDUM FOR: Deputy Director of Central Intelligence/ 
+
+Deputy Director for National Foreign Assessment' 
+Deputy Director for Science and Technology 
+Acting Deputy Director for Operations / 
+
+Acting Director of Cormnuni cations 
+
+Chief, Information Systems Analysis Staff / ,. v 
+
+FROM; John F. Blake 
+
+Deputy Director for Administration 
+
+SUBJECT: Establishment of Agency-Wide ADP Professional 
+
+Standards 
+
+REFERENCE: Memo dtd 26 Jul 73 to EAG Members fr DDCI ? subj: 
+
+Management of Automatic Data Processing Resources 
+
+
+1. Reference memorandum, in its attachment, assigns a responsibility, 
+amongst others, to the Deputy Director for Administration .to formally study 
+the following issue: 
+
+•establish an. . . common. Agency-wide ADP professional 
+standards (feasibility studies, requirements definition, 
+specification standards, and programming standards to 
+name a few)." 
+
+A report on the findings of. this study is to ba submitted to DOCI by 
+IS December 1978. 
+
+2. I am asking the Director of Data Processing to assume overall 
+responsibility for this study and he will appoint both a chairman for the 
+study group as well as representation from OOP to be members of the group. 
+
+I now ask- that addressees (DDCI for the 0/DCI) nominate to the Director of 
+Data Processing a member to the study group to represent, their interests. 
+
+It is suggested that the DDSST may wish to nominate two members, one 
+specifically to represent NPIC and the other to represent, the balance of, 
+that Directorate. 
+
+3. Because of the somewhat general nature of the tasking, the firs t ' 
+endeavors of the study ctroun will be devoted to problem de finition and 
+then the establishment of the scope of the study. 
+
+
+Appro 
+
+
+idfqEHftteasle 20ff2lfoji$ ; C]A,RE^&4M&33R0002001 5001 7-8 
+
+
+A*..*,, 
+
+
+
+4, The same reference memorandum also requested this Directorate 
+to undertake a study on the matter of creating an Agency-wide ADP career 
+service. That responsibility has been assigned to the Office of Personnel. 
+I have asked the Directors of Personnel and Data .Pr ocessing t o assure the 
+maintenance of close liaison because of the TnHmlationsHTpsThat - exTst 
+between the two study topics. 
+
+
+5. Addressees are asked to submit their nominations directly to 
+Mr. Danny May, Director of Data Processing, by 4 September. The group 
+vrill be convened upon.the call of the chairman. 
+
+
+
+Att; 
+
+Ref memo 
+
+
+cc: 0/ODP 
+
+Acting D/Pers 
+
+
+STATINTL 
+
+
+
+
+
+
+Approved For&elease 2002/06/18 : CIA-RDP84-009334|»0020! 
+
+% 
+
+Z 6 JUL 1373 
+
+
+
+
+mm 
+
+
+fcE&OPAttCUtt POP: Executive Advisory Group Members 
+
+_ s Deputy Director of Central Intelligence 
+
+
+BD/*\ Hcgls 
+
+
+7S'3S/: j 
+
+
+SUBJECT .. • ? Management of Automatic Data Processing Resources 
+
+
+X. (A/IUQ) The purpose. of this memorandum is to set. forth Agency 
+.. policy with respect to continuing Executive Advisory Group {RAG} involve- , 
+ir.ent in the management of Agency Automatic Data Processing (ADP) rescurcesi 
+In the formulation and prioritization of the Agency's budget, AD? resource i 
+requirements should be evaluated within the context of component ana direo! 
+borate responsibilities and should compete with other available component I 
+resources (i.e., positions, contractor support, and the like) » The' RAG’s l 
+review and ^management of ADP will therefore be concentrated on Agency-level 
+considerations — utilization of the central ADP facility and the relationshi 
+of ODP costs, to specific user office missions which directly benefit frcsn l 
+tliese expenditures, long-range planning, and issues relating to the quest! c 
+of centralized/decentralized application of ad? technology, ‘ v ' \ 
+
+
+CA/IUO} The EAG will, in conjunction with its review of the 
+Agency's Program Plan each year, specifically focus attention cn the 
+proposed functional uses of ADP and on proposed major AD? investments. 
+Included will be reviews of: j 
+
+
+a. Component ADP activities which in the aggregate 
+exceed $250 thousand of component-budgeted resources; 
+
+
+and 
+
+
+b! Sew ADP initiatives identified in program, plans; 
+c. Expansion of ODP computing or service capacity; 
+
+
+<3. The impact of the ZB8 ranking process on requested 
+ADP resources. 
+
+
+3, (A/ICO) The BAG will, during the first quarter of each fiscal 
+year, review the planned current-year utilization of the central system 
+
+/’■'r’lt-j v .1: . ... *• 
+
+
+— ■ .... ii.uLj.ui , 1. i : 
+
+(i.c,, GDP) end at its discretion, other large AD? activities. 
+
+
+a. The annual review of ODP v;i!l consist of examining 
+projects normally defined as individual user requirements — * 
+estimated to consume $25U thousand of CD? resources in that 
+fiscal year . Users and 00? will jointly present each project 
+in accordance v/ith criteria established by the BAG. This 
+
+
+Approved For Release 2002/06/18 : CIA-RDP84-OQ933ROOO2O015OO.17-8 * 
+
+
+" » • * 
+fV\v' 
+
+
+''VtV 
+
+ittHi 
+
+
+
+
+
+
+M 
+
+
+
+3*?7J 
+
+
+AppVoVedit^.Rel^sfei2QjM^06/4-8 * jCIA^RBP&4-06^^R(K^2&0^ 5001 7-8 
+
+
+review will result in an EAG-approved plan for the con- 
+su.~Lpfcj.on of OOP resources for the fiscal year thht is 
+sensitive both to user needs and to the level of resources 
+that can ha committed to the central AD? facility. 
+
+b. Concurrent with (a) above, the EAG will review, 
+with CD? assistance,' current-year component ircpleroentafcicn 
+plana for new AD? initiatives and expanded decentralised 
+AD? capacity, the planning for which was reviewed some IS 
+months prior (i.e. the program plan). This review will 
+primarily be directed towards changes in requirements and . 
+available technological alternatives. ■ 
+
+c. 9£he combination of (a) and (b) above are intended 
+to insure that Agency *ADP resources are being applied to 
+those important problems where a high, economically accep- 
+table payoff cars be demonstrated or projected. 
+
+t 
+
+4. (A/ICO)* Any (X) component AD? initiatives or (2) px'ojects support? 
+by CD? that were not included in the fall review described in paragraph l 
+3 that are initially estimated to cost a total of $250 thousand or more r 
+during the. first three fiscal years, will require EAG approval prior to f 
+initiation. Likewise, ongoing projects not initially estimated to consume: 
+$250 -thousand of Od? resources (and, there tore, not reviewed in the fall) | 
+will require EAG approval if updated estimates indicate that OOP costs wil 
+exceed the review threshold. In each of the above cases, user offices, ir. 
+co-ordination with ODP, will submit required data to the Comptroller, who I 
+will arrange. for EAG review. User offices will ba guided by the instruct j 
+contained in annual AD? guidance memoranda. 
+
+5. * (A/IUO) Each year following the EAG's review of current-year AD?[ 
+
+programs, an appropriate guidance memorandum will be issued. Attached is: 
+such guidance for Fiscal Year 197$. . I 
+
+
+thc»t senior •/ agency *.«««« f . 
+
+both as a sound management practice and to assure external reviewers- that 
+our util izt ion of requested AD? resources is necessary, beneficial, and ; 
+firmly under control. *■ 
+
+/S/ &cafc &. Cart„ cet 
+Frank C_ Carlucci 
+
+Attachment? 
+
+As Stated 
+
+
+Approved For Release 2002/06/18 : CIA-RDP84-00933R000200150017-8 
+
+
+SOX 7 :‘r^Av;.; :*-?p ff ” 
+
+Approvecf ^oNSefease '2(f02/06/18 TCI»-rBp^4-O69S!»0OO2OO1 5001 7-8 
+
+
+Attachment to EAG Memorandum Concerning ♦•he i/Mv- Pr( , n v ., r , . 
+
+Data Processing Resources ^ Management of Automatic 
+
+
+Subject: FY 1SV8 Review of Major AD? Projects and Issues - ' 
+
+by the EAG^in^ts revilw^najorlvD? S-oS? 0 t0 recoca decisions made 
+Data Processing (CDP) In Fif 1978 and^n 7 S &U ??° cfcc ^ ^ Office of 
+issues. ; ' i978 to adares * other related ,w management 
+
+them in f-/'l978 1 to^h./’Sten ?! «« approved and OCP will Krooorfc 
+reviews, cap will mSniSr ™ ^ Urlng «>8 individual project 
+
+and will concurrently notify the u.pr^'r'”^ v/ ^tain cop for each project 
+incurred costs reach 75 r“rLnh nF w, exfice and the Comptroller when 
+be responsible for validSS •, S ? p?ro ' ,al ¥ val - User offices will 
+of the*^ fiscal year If inert^^c^ F-oject requirements for the remainder 
+
+to exceed the aIprovafl“v ^or^nHr ^ SU i fc in «* ^sta Project 
+
+diction with ODP will provide7o i-L r7 1° Forcont, user offices in coor- 
+pW>e ODP notification^ iustificaMo^SS^i^' fcCfl ^king days 
+
+Xhe justification v/ill include: * 1 CCntlnue ^ ^ ISC -'ai year CD? support. 
+
+—an explanation of the need for increased OOP services? 
+for Z%^ctlTelT^ £erVlCeS Ce ^ lrea 
+
+rs^S1«% , =«w.wu 
+
+organization if the increase is not approved. 
+
+•ne Comptroller will arrange for EAG review of the increased funding request. 
+
+if ices in fi ^f’lnsSc’4 1 wh»2 CUrr ^' tly i nfo ™ th<5 Controller and user 
+ot previously reviewed' bv ♦•he c ^supcorted Fy 1973 projects, 
+
+r more. The u<-er Sr? • are estimated to grew to $250 thousand 
+
+provide to™^ 
+
+borsion Co™. The Comptroller will arrange Subject. 
+
+' ‘tore of CDP^ resources througlfpY^lir n^-?? timat t d to Cl »stH» $250 thousand 
+Itt’ntton. 'i ho U sS ofJir»1n w * n r«jurro EAG approval orior to 
+
+'*** Reject Decision lo™ to t “ te-ronor wwfh.f 11 «*»** a cam- 
+view of the project proposal ' “ '‘.“-roller. w..o wixl arrange for EAG 
+
+■ ApprovecTFor Release 2002/06/18 : CIA-RDP84-00933R0002001 5001 7-8 
+
+
+SlfwV* - .; .1 Z!> Jvl UjiiLi 
+
+. < ' Approved For-^lease 2002/06/18 : CIA-RDP84-OO933B0OO2OO1 5001 7-8 
+
+N 
+
+5. (ft/TUO) During this EAG review process, several management issues 
+*-rere raised. Cna such issue concerned the rapid computer technology advance- 
+ments that have resulted in increasingly decentralised AD? applications in 
+the Agency. This has resulted in increasing numbers of personnel performing 
+AD? responsibilities (application design end development primarily) outside 
+of the OOP sub-career service. Every available indication suggests that 
+this trend will continue. An Agency-wide study has questioned whether, 
+given this trend, we should establish. an Acencyrw.ids. AD? car esc. servi ce % 
+and censnon. Agency-wide AD? professional standards (feasibility studies, 
+requirements definition, specification standards, and programming standards * 
+to name a few). Advantages suggested are uniformity, career mobility " 
+
+throughout the Agency, and comparable advancement opportunities for all 
+AD? professionals- Because of the broad impact of this issue, 1 am risking 
+* that the Deputy Director for Administration formally study t hese Issu es ' , 
+and submit a r eport of bis findings to ma b yd^5^£cerd;of'i"573d 1 vTcuIci ■ / 
+
+like 'the report to include a full discussion of: . . - ~ : / 
+
+
+, — the pros and cons of each specific issue? • ) \ 
+
+«* I 
+
+— -alternative solutions and the manner in which each / 
+
+would be implemented and maintained, if approved; ( 
+
+t A 
+
+— the def initios of an ^AD? professional” and the \. 
+
+-\ approximate number of Agency personnel that would, if v > 
+
+approved, be included in an expanded AD? career service? / 
+
+■r / 
+
+/ = — the impact on Agency components with "resident” ' , / 
+
+AD? professionals and ongoing AS? programs; and ' / 
+
+V... —conclusions reached and recommendations offered. J 
+
+6. (A/100) Another issue raised curing this review process was the 
+
+need for a formal, long-range Agency AD? plan. There is soma sentiment for 
+this within the intelligence Community but specific requirements for such 
+a plan have not as yet crystal ized. Vie will give more attention to this 
+issue as future needs dictate. 
+
+
+
+Approved For Release 2002/06/18 : CIA-RDP84-00933R0002001 5001 7-8

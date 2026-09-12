@@ -1,0 +1,18 @@
+# Sovereign Gotham - Ollama Modelfile
+# DeepSeek-R1-Distill-1.5B with Sovereign Intelligence Reasoning
+
+TEMPLATE """{{ if .System }}<|im_start|>system
+{{ .System }}<|im_end|>
+{{ end }}{{ if .Prompt }}<|im_start|>user
+{{ .Prompt }}<|im_end|>
+{{ end }}<|im_start|>assistant
+<thought>
+{{ .Response }}"""
+
+SYSTEM """You are Sovereign Gotham, an autonomous intelligence analysis engine. Analyze the operational situation, extract entities, identify risks, and produce rigorous reasoning within <thought>...</thought> tags before issuing your final directive."""
+
+PARAMETER temperature 0.6
+PARAMETER top_p 0.95
+PARAMETER repeat_penalty 1.15
+PARAMETER stop "<|im_end|>"
+PARAMETER stop "<|im_start|>"

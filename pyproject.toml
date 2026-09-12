@@ -1,0 +1,29 @@
+[project]
+name = "sovereign-gotham"
+version = "1.0.0"
+description = "Sovereign Gotham - Autonomous Intelligence Analysis & Ontology Engine"
+readme = "README.md"
+requires-python = ">=3.10"
+
+[tool.ruff]
+line-length = 140
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "W"]
+ignore = [
+    "E501",  # Line too long (acceptable for docstrings, banners, and declassified text snippets)
+    "E741",  # Ambiguous variable name
+    "F841",  # Local variable assigned but never used
+    "W293",  # Blank line contains whitespace
+    "W291",  # Trailing whitespace
+]
+
+[tool.ruff.lint.per-file-ignores]
+"__init__.py" = ["F401"]
+"scratch/*" = ["E", "F", "W"]
+"tests/*" = ["E402"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]

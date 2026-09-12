@@ -1,0 +1,75 @@
+CENTRAL INTELLIGENCE AGENCY
+DIRECTORATE OF SCIENCE AND TECHNOLOGY
+OFFICE OF SPECIAL OPERATIONS
+
+SANITIZED COPY - DECLASSIFIED UNDER THE CREST PROGRAM
+EXEMPTION: EO 12958 6.2(c) - 25X1-HUM
+DECLASSIFICATION DATE: 2004-03-15
+DOCUMENT ID: CIA-RDP88B00443R001200090001-4
+ORIGINAL CLASSIFICATION: TOP_SECRET // EYES ONLY // NOFORN
+
+MEMORANDUM FOR: Deputy Director for Operations
+FROM: Chief of Station, Western European Task Force (Agent_Role: COS_BERLIN)
+SUBJECT: OPERATIONAL DOCTRINE - PROJECT CHOPIN (TACTICAL ASSET RECOVERY & SURVEILLANCE)
+
+1. MISSION OBJECTIVE:
+Operation Codename: OP_CHOPIN
+Mandate: Neutralize infiltration vector orchestrated by Threat Actor group 'SYNDICATE_ORION' and safely extract compromised informant Asset 'CYPHER_9'.
+Status: ACTIVE
+Target Entity: SYNDICATE_ORION (Type: ORGANIZATION, Threat Level: HIGH)
+Secondary Target: CYPHER_9 (Type: INDIVIDUAL, Threat Level: MEDIUM)
+
+2. AUTHORIZED PROCEDURES:
+The following standard operational procedures (SOPs) are registered and executed under this mission:
+
+A. PROCEDURE ID: PROC_HUMINT_SURVEILLANCE
+Name: Urban Static and Mobile Surveillance Protocol
+Category: SURVEILLANCE
+Authorized Steps:
+  1. Establish visual observation post (OP) with minimum two-man rotation.
+  2. Implement passive optical monitoring without active electronic emissions.
+  3. Log all ingress/egress vectors and photographic identification of contacts.
+  4. Maintain minimum safety separation distance (50 meters) in hostile sectors.
+Restrictions and ROE:
+  - Strict prohibition of lethal force without active hostile fire.
+  - No surveillance inside sovereign diplomatic compounds.
+  - Minimum clearance required: SECRET.
+
+B. PROCEDURE ID: PROC_TACTICAL_EXTRACTION
+Name: Hostile Exfiltration and Rapid Extraction Protocol
+Category: EXTRACTION
+Authorized Steps:
+  1. Secure perimeter with designated suppression team.
+  2. Authenticate target asset identity using pre-arranged challenge-response codes.
+  3. Execute rapid tactical withdrawal via secondary contingency route.
+  4. Deliver asset to sovereign safehouse within 30 minutes of extraction.
+Restrictions and ROE:
+  - Explicit authorization from Chief of Station (Agent_Role: COS_BERLIN) required prior to initiation.
+  - Prohibited within 5 kilometers of civilian mass transit hubs during daytime hours.
+  - Use of kinetic countermeasures authorized only in self-defense.
+  - Minimum clearance required: TOP_SECRET.
+
+C. PROCEDURE ID: PROC_CYBER_COUNTERMEASURE
+Name: Network Intrusion and Communications Disruption
+Category: CYBER
+Authorized Steps:
+  1. Deploy localized RF jamming against hostile telemetry.
+  2. Intercept command-and-control datalinks.
+  3. Inject deceptive transit data.
+Restrictions and ROE:
+  - Must not disrupt civilian critical telecommunications or emergency services.
+  - Minimum clearance required: SECRET.
+
+3. CHAIN OF COMMAND & DECISION AUTHORITIES:
+- Agent Role: COS_BERLIN (Chief of Station)
+  Clearance: TS_SCI
+  Competencies: Strategic Intelligence, Tactical Extractions, ROE Enforcement, Asset Management
+  Decision Authority: AuthorizeExtraction, SanctionSurveillance, EscalateAlertLevel, TerminateMission
+
+- Agent Role: CASE_OFFICER_ALPHA (Field Operator)
+  Clearance: SECRET
+  Competencies: HUMINT, Close Surveillance, Evasion
+  Decision Authority: ExecuteSurveillance, DeployLocalizedCountermeasures
+
+4. HISTORICAL REGISTRATION:
+Document registered in archive under CIA Historical Review Program. All links to foreign station logs verified.

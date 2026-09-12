@@ -1,0 +1,22 @@
+# Checkpoints & Large weights
+tmp_test/
+checkpoint-*/
+*.pt
+*.bin
+*.pth
+*.onnx
+
+# Python cache & envs
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ruff_cache/
+venv/
+.venv/
+env/
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
