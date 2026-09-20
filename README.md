@@ -1,25 +1,4 @@
----
-language:
-- en
-- pt
-license: gemma
-base_model: google/gemma-2-2b-it
-pipeline_tag: text-generation
-tags:
-- intelligence
-- tradecraft
-- analysis-of-competing-hypotheses
-- ach
-- directml
-- gemma-2
-- palantir
-- sovereign
-- antigravity
-- distillation
-library_name: transformers
----
-
-# SOVEREIGN ANTHOLOGY — Gemma 2 2B (Operational Tradecraft Model)
+# Sovereign Gotham // Operational Intelligence & Universal Cognitive Engine
 
 [![Hugging Face Model](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Sovereign--Anthology--Gemma--2--2B-ffd21e)](https://huggingface.co/KolmogorovAcc/sovereign-anthology-gemma-2-2b)
 [![License: Gemma](https://img.shields.io/badge/License-Gemma-blue.svg)](https://ai.google.dev/gemma/terms)
@@ -27,59 +6,116 @@ library_name: transformers
 [![Ollama Ready](https://img.shields.io/badge/Ollama-sovereign--gemma2-black)](https://ollama.com)
 [![Built with Antigravity](https://img.shields.io/badge/Orchestrated%20with-Antigravity%20(agy)-purple)](https://github.com/google-deepmind)
 
-> **Autonomous Sovereign Reasoning Model fine-tuned on Google Gemma 2 2B-IT using DirectML on AMD Radeon RX 7600 XT.**  
-> Built through Teacher-Student Cognitive Distillation orchestrated via the **Antigravity CLI (`agy`)**, distilling operational decision tradecraft from declassified US intelligence doctrine (**CIA, NSA, US Army, DoD**) with **Google Gemini** as Teacher, and projecting it into high-stakes civilian, engineering, and enterprise domains.
+**Sovereign Gotham** is an autonomous operational intelligence, problem-solving, and decision-making platform grounded in the **Palantir Metamodel (Gotham, Foundry, and AIP - Artificial Intelligence Platform)**. Operating **100% locally, air-gapped, and sovereignly**, it is accelerated natively on consumer **AMD Radeon RX 7600 XT (16 GB GDDR6)** hardware via Microsoft DirectML and distilled from authentic declassified US Intelligence & Defense tradecraft (**CIA, NSA, US Army, DoD**).
 
 ---
 
-## 🏛️ 1. Executive Summary & The Core Idea
+## 🏛️ 1. Core Philosophy: Pure Procedural Tradecraft vs. Dead Historical Facts
 
-Small Language Models (SLMs, 1B–3B parameters) are exceptionally efficient for on-device computing, but traditionally suffer from a catastrophic failure mode: **reasoning collapse and lexical degradation when subjected to long, noisy, telemetry-rich operational prompts**. When faced with large metric streams, competing hypotheses, or high-tempo trade-offs, standard SLMs either hallucinate generic platitudes, repeat tokens, or break down entirely.
+A recurring pitfall when applying AI to intelligence data is forcing the model to memorize raw historical text or declassified Cold War cables (1950s–1980s memoranda). Doing so causes severe OCR noise contamination, chronological confusion, and bureaucratic hallucinations.
 
-The **Sovereign Anthology** project set out to prove that a 2.6B model can master **rigorous, multi-hypothesis decision tradecraft** if trained on *pure procedural methodology* rather than factual memorization:
+**Sovereign Gotham** enforces a strict ontological separation into two decoupled layers:
 
-1. **Rote Memorization is the Enemy of Transferable Intelligence**:  
-   Rather than having the model memorize dead historical events, Cold War cables, or intelligence lore (which introduces OCR noise and bureaucratic hallucinations), the model was trained on the **pure procedural mechanics of decision-making under uncertainty**.
-2. **Declassified Intelligence Doctrine as the Ultimate Decision Framework**:  
-   Over decades of high-stakes operations, intelligence agencies developed formal analytic methods specifically designed to counter cognitive bias, incomplete data, and deceptive noise:
-   * **CIA (Richards J. Heuer Jr.)**: *Analysis of Competing Hypotheses (ACH)* — formulating mutually exclusive hypotheses and focusing on diagnostic evidence that *refutes* rather than confirms.
-   * **NSA (*Cryptolog* Series)**: *Perishable Pipeline Capacity Allocation & Triage* — prioritizing operations by decay rate, anticipated volume, collectibility, and operational value when demand exceeds processing bandwidth.
-   * **US Army (*FM 3-0 / MDMP*)**: *Mission Command & After-Action Reviews (AAR)* — establishing quantitative thresholds, decentralized execution, and 30-day drift recalibration.
-   * **DoD / USAF (John Boyd)**: *OODA Loop (Observe-Orient-Decide-Act)* — rapid hypothesis testing under volatile conditions.
-3. **Triadic Transposition into High-Stakes Civilian Domains**:  
-   These intelligence doctrines were systematically projected into critical civilian challenges: distributed systems outages (Kafka queues, P99 latency, ARR exposure), high-stakes medical and academic qualifications (USMLE Step 2, spaced repetition decay), and real-time mission linguistic translation.
+1. **Factual Evidence Layer (Vector Store / ChromaDB + Knowledge Graph)**:
+   - Raw governmental documents and case records reside in a vector database for deterministic, on-demand Retrieval-Augmented Generation (RAG).
+2. **Cognitive Discipline Layer (The Sovereign Autonomous Reasoner)**:
+   - The model **does not memorize dead historical facts**. Instead, it has internalized the **rigorous, procedural decision mechanics** of intelligence agencies and projects them onto high-stakes, modern real-world crises: enterprise infrastructure outages, distributed system failures, equity fraud, high-stakes academic certifications, and critical linguistic operations.
+
+```
+┌────────────────────────────────────────────────────────────────────────────────────────┐
+│                        OPERATIONAL DIRECTIVE / REAL-WORLD DILEMMA                      │
+└───────────────────────────────────────────┬────────────────────────────────────────────┘
+                                            │
+                                            ▼
+┌────────────────────────────────────────────────────────────────────────────────────────┐
+│ LAYER 1: SIGNALS & TELEMETRY TRIAGE (NSA)                                              │
+│ • Cold signal isolation vs. subjective noise via statistical bounds (2.5-sigma)        │
+│ • Pipeline capacity allocation based on data perishability & decay rate (PPCATP)       │
+│ • Semantic rectification: strict segregation between conceptual model and data schema  │
+└───────────────────────────────────────────┬────────────────────────────────────────────┘
+                                            │
+                                            ▼
+┌────────────────────────────────────────────────────────────────────────────────────────┐
+│ LAYER 2: FORENSIC INQUEST & INCENTIVE NETWORKS (FBI)                                   │
+│ • Moral hazard asymmetry mapping & Follow-The-Money causal trail tracking              │
+│ • Blind independent corroboration: zero unilateral assertions accepted without trace   │
+└───────────────────────────────────────────┬────────────────────────────────────────────┘
+                                            │
+                                            ▼
+┌────────────────────────────────────────────────────────────────────────────────────────┐
+│ LAYER 3: ANALYSIS OF COMPETING HYPOTHESES - ACH (CIA)                                  │
+│ • Mutually exclusive hypothesis matrix generation (Richards J. Heuer Jr.)              │
+│ • Elimination through diagnostic inconsistency to eradicate confirmation bias          │
+│ • Negative space auditing: systematic inspection of deliberate silences and omissions  │
+└───────────────────────────────────────────┬────────────────────────────────────────────┘
+                                            │
+                                            ▼
+┌────────────────────────────────────────────────────────────────────────────────────────┐
+│ LAYER 4: MISSION COMMAND & PHASED OODA LOOP (DOD / US ARMY)                            │
+│ • Deterministic temporal roadmaps: T+24h (Containment), T+7d (Maneuver), T+30d (Recal) │
+│ • Empirical friction decrement quantification (Friction Tax / EPDQ-ODR)                │
+│ • Inviolable Rules of Engagement (ROE) & quantitative stop-loss abort criteria         │
+└───────────────────────────────────────────┬────────────────────────────────────────────┘
+                                            │
+                                            ▼
+┌────────────────────────────────────────────────────────────────────────────────────────┐
+│ OUTPUT: AUDITABLE PALANTIR ACTION BLUEPRINT (JSON / PROTOCOL)                          │
+│ • Objects: NSASignalVector, FBIActorProfile, CIAHypothesisMatrix, DoDDoctrine          │
+│ • Links: CORRELATES_WITH, EVALUATES_HYPOTHESIS, COMMANDS_ACTION                        │
+│ • Actions: Chronological operational phases, circuit breakers, and hard abort triggers │
+└────────────────────────────────────────────────────────────────────────────────────────┘
+```
 
 ---
 
-## ⚙️ 2. How It Was Built: The Antigravity CLI (`agy`) Distillation Engine
+## 🚀 2. State-of-the-Art Milestone: Sovereign Anthology — Gemma 2 2B
 
-The entire lifecycle of this model — from historical doctrine mining and teacher-student distillation to DirectML kernel adaptation and local training — was autonomously orchestrated using the **Antigravity CLI (`agy`)**, Google DeepMind's agentic coding system.
+Evolving beyond preliminary experimental checkpoints, the flagship production release is the **Sovereign Anthology — Gemma 2 2B**:
+
+* **Foundation Model**: Google Gemma 2 2B-IT (2.61B parameters, hybrid sliding window 4096 + global attention, logit soft-capping).
+* **Teacher-Student Cognitive Distillation**: Supervised by **Google Gemini** via the **Antigravity CLI (`agy`)**, synthesizing 389 core intelligence principles into 2,334 telemetry-rich samples featuring real operational metrics (P99 latency, queue saturation, error budget burn rates, ARR exposure).
+* **Full-Precision DirectML SFT Training**:
+  - 1,752 optimization steps (3 complete epochs, ~8h15m continuous training on AMD Radeon RX 7600 XT 16GB).
+  - Monotonic loss convergence: Initial **7.38** $\rightarrow$ Final **0.0001**.
+  - All-Linear LoRA ($r=32, \alpha=64$) targeting all 7 linear projection layers (`q_proj`, `k_proj`, `v_proj`, `o_proj`, `gate_proj`, `up_proj`, `down_proj`).
+  - NEFTune embedding noise regularization ($\alpha = 5.0$) preventing token repetition loops and lexical collapse.
+* **Standalone Merged Weights**: LoRA adapters seamlessly folded into the base weights with zero runtime inference penalty.
+* **Deployment Artifacts**:
+  - **FP16 SafeTensors**: Native Python inference via Hugging Face Transformers.
+  - **Native GGUF FP16**: 5.2 GB full-precision binary for Ollama / llama.cpp.
+  - **Quantized GGUF Q4_K_M**: 1.6 GB ultra-fast binary (>30 tokens/sec on consumer CPU/GPU).
+
+---
+
+## ⚙️ 3. Distillation Engine: Orchestrated via Antigravity CLI (`agy`)
+
+The entire lifecycle — from historical doctrine extraction to DirectML kernel adaptation and training execution — was driven by the **Antigravity CLI (`agy`)**, Google DeepMind's agentic pair-programming orchestrator.
 
 ```mermaid
 flowchart TD
-    subgraph Antigravity["Antigravity CLI (agy) Autonomous Orchestrator"]
-        A1["Doctrine Mining: Declassified CIA CREST, NSA Cryptolog, Army FM"]
-        A2["Metacognitive Extraction: 389 Universal Operational Principles"]
-        A3["Triadic Transposition Engine: Domain Mapping (Business, Study, Language)"]
+    subgraph Antigravity["Antigravity CLI (agy) Autonomous Engine"]
+        A1["Doctrine Extraction: CIA CREST, NSA Cryptolog, Army FM"]
+        A2["Metacognitive Distillation: 389 Universal Decision Principles"]
+        A3["Triadic Transposition Engine (Business, Academic, Linguistic)"]
         A4["High-Entropy Telemetry Synthesizer (P99, SLOs, Error Budgets, ARR)"]
         A5["ACH Chain-of-Thought Generator: Teacher Google Gemini"]
-        A6["Automated Quality & Integrity Curation (Regex, Token Audit, Zero-Loss Filter)"]
+        A6["Automated Integrity Filter (Regex, Token Audit, Zero-Loss Validation)"]
     end
 
-    subgraph Dataset["Master Bimodal Dataset: anthology_gemma_v1.jsonl"]
+    subgraph Dataset["Master Bimodal Dataset (2,334 Samples)"]
         D1["Part A: Concise Operational Problems (1,167 Samples, 45-80 Tokens)"]
         D2["Part B: Telemetry-Rich Incident Feeds (1,167 Samples, 500-1,200 Tokens)"]
     end
 
-    subgraph DirectML["AMD Radeon RX 7600 XT DirectML Training Engine"]
-        T1["Base Model: Google Gemma 2 2B-IT (2.61B)"]
-        T2["DirectML Float32 Attention Soft-Capping Patch (torch.tanh fix)"]
+    subgraph DirectML["AMD Radeon RX 7600 XT DirectML Training"]
+        T1["Base Model: Google Gemma 2 2B-IT"]
+        T2["DirectML Float32 Soft-Capping Patch (torch.tanh fix)"]
         T3["Chunked Cross-Entropy Loss (chunk=64, capping VRAM at 8.2 GB)"]
-        T4["All-Linear LoRA (r=32, alpha=64 on q, k, v, o, gate, up, down)"]
+        T4["All-Linear LoRA (r=32, alpha=64)"]
         T5["NEFTune Noise Regularization (alpha=5.0) & Completion Masking"]
     end
 
-    subgraph Deliverables["Unified Model & Distribution"]
+    subgraph Deliverables["Production Deliverables"]
         M1["Merged Standalone SafeTensors (FP16)"]
         M2["Native GGUF FP16 (5.2 GB)"]
         M3["Quantized GGUF Q4_K_M (1.6 GB)"]
@@ -95,61 +131,58 @@ flowchart TD
     M2 & M3 --> M4 & M5
 ```
 
-### The Step-by-Step Distillation Protocol:
+### The Three-Phase Distillation Pipeline:
 
 1. **Autonomous Knowledge Mining**:  
-   Using `agy`, thousands of declassified pages from the CIA CREST database, 58 volumes of the NSA *Cryptolog* series, and US Army Field Manuals were ingested. `agy` extracted **389 discrete, universal decision principles**, stripping all historical trivia and isolating only actionable logic.
+   Using `agy`, thousands of declassified documents were parsed to isolate **389 discrete, universal decision principles**, discarding historical background and retaining only procedural decision logic.
 
 2. **Teacher Model: Google Gemini**:  
-   Operating via the Antigravity engine, **Google Gemini** acted as the Teacher model. For each principle, Gemini generated:
-   * **A Triadic Scenario**: Projecting the principle across 3 distinct domains:
+   Operating via the Antigravity framework, **Google Gemini** acted as the Teacher, generating:
+   * **Triadic Scenarios**: Projecting each principle across three real-world civilian domains:
      - *Business & Systems Engineering*: Distributed microservices, Kafka queue saturation, P99 latency spikes, SLA/SLO breach recovery, error budget exhaustion, ARR financial exposure.
-     - *Study & Academic Boards*: High-stakes certification exams (USMLE Step 2, physics qualifying exams), spaced-repetition forgetting curves, cognitive decay under 30-day deadlines.
+     - *Academic & Certification Boards*: High-stakes exams (USMLE Step 2, physics qualifying exams), spaced-repetition forgetting curves, cognitive decay under 30-day deadlines.
      - *Language & Mission Translation*: Emergency clinical vs. formal diplomatic register switching, real-time audio interpretation latency, technical vocabulary decay.
-   * **Realistic Telemetry Feeds**: Synthesizing real metric dossiers with baseline nominals, current unhealthy thresholds, queue saturation percentages, and error budget burn rates.
-   * **Rigorous ACH Chain-of-Thought (`<thought>`)**:
-     - *Mutually Exclusive Hypotheses*: Formulating $H_1, H_2, H_3$.
-     - *Diagnostic Evidence Weighting*: Actively seeking evidence to disconfirm/refute weak options (Richards Heuer method).
-     - *Known Information Gaps*: Identifying what data is missing before concluding.
-     - *Observable Invalidation Indicators*: Empirical metrics to watch for failure.
-   * **Operational Protocol**: Step-by-step numbered directives with hard quantitative circuit breakers.
-   * **30-Day After-Action Review (AAR)**: Criteria for measuring performance drift.
+   * **Synthetic Telemetry Dossiers**: Generating concrete, high-entropy telemetry containing baseline nominals, unhealthy thresholds, queue exhaustion rates, and error budget burn rates.
+   * **Structured ACH Chain-of-Thought (`<thought>`)**:
+     - *Mutually Exclusive Hypotheses*: $H_1, H_2, H_3$.
+     - *Diagnostic Evidence Weighting*: Actively disconfirming weak hypotheses (Heuer's law of cognitive bias mitigation).
+     - *Known Information Gaps*: Explicitly declaring missing intelligence before concluding.
+     - *Observable Indicators*: Quantitative tripwires for real-world validation.
+   * **Operational Protocol**: Strictly numbered action steps with quantitative circuit breakers.
+   * **30-Day After-Action Review (AAR)**: Measurable drift tolerances to recalibrate criteria.
 
-3. **Curated Bimodal Distribution (`anthology_gemma_v1.jsonl`)**:  
-   The resulting dataset contained exactly **2,334 verified samples**:
-   * **50% Concise Direct Queries** (Part A, ~60 token prompts): Simulating executive-level directives.
-   * **50% Telemetry-Rich Dossiers** (Part B, 250–600 token prompts): Simulating complex operational feeds up to 1,031 tokens.
-   * Every sample formatted with the official Google Gemma 2 chat template: `<bos><start_of_turn>user\n...<end_of_turn>\n<start_of_turn>model\n...<end_of_turn>\n`.
+3. **Master Bimodal Dataset (`anthology_gemma_v1.jsonl`)**:  
+   Exact composition of **2,334 verified samples**:
+   * **50% Concise Operational Directives** (Part A, prompt avg ~60 tokens).
+   * **50% Telemetry-Rich Dossiers** (Part B, prompt avg ~270–600 tokens, sequences up to 1,031 tokens).
 
 ---
 
-## 🛠️ 3. DirectML Hardware Acceleration & Kernel Engineering
+## 🛠️ 4. DirectML Hardware Acceleration & Kernel Engineering
 
-Training was conducted **100% locally on Windows** using an **AMD Radeon RX 7600 XT (16 GB GDDR6)** via Microsoft's `torch_directml` backend, demonstrating complete independence from proprietary cloud infrastructure.
+Training was performed **100% locally on Windows** using an **AMD Radeon RX 7600 XT (16 GB GDDR6)** via Microsoft's `torch_directml` backend. Overcoming Windows DirectML driver constraints required custom low-level engineering:
 
-Developing on DirectML required solving several fundamental kernel limitations in modern architectures:
-
-### Breakthrough 1: DirectML Float32 Attention Soft-Capping Patch
-Gemma 2 introduces attention logit soft-capping:
+### 1. DirectML Float32 Attention Soft-Capping Patch
+Gemma 2 enforces logit soft-capping inside attention layers:
 $$\text{scores} = \text{softcap} \times \tanh\left(\frac{QK^T}{\sqrt{d_k} \times \text{softcap}}\right)$$
-On Windows DirectML, the native `torch.tanh` operator in FP16 causes an instant crash in the C++ dispatcher (`m_device->CreateOperator`).  
-**The Fix**: `agy` intercepted the attention forward pass, casting the scaled attention weights to `float32` before computing `torch.tanh`, and projecting back to `float16`. This eliminated the driver crash with zero speed penalty.
+In Windows DirectML, the native `torch.tanh` operator in FP16 triggers an immediate fatal crash in the C++ operator dispatcher (`CreateOperator`).  
+**The Solution**: `agy` patched the attention forward pass to cast scaled attention weights to `float32` before computing `torch.tanh`, and then re-projected back to `float16`. This resolved the crash with zero loss in throughput.
 
-### Breakthrough 2: Chunked Cross-Entropy Loss
-Gemma 2 has a large vocabulary (256,000 tokens). Computing cross-entropy over a 2,048 context window creates a logit tensor of shape `[batch, 2048, 256000]`, requiring over 4.2 GB of VRAM just for the loss calculation, triggering immediate Out-Of-Memory (OOM) errors.  
-**The Fix**: Implemented chunked cross-entropy with a `chunk_size = 64`. Logits were computed and accumulated in slices, capping peak VRAM usage at **~8.2 GB** out of the 16 GB available.
+### 2. Chunked Cross-Entropy Loss
+Gemma 2 features a massive vocabulary of 256,000 tokens. Computing standard cross-entropy over a 2,048 sequence length requires allocating a logit tensor of shape `[1, 2048, 256000]` (>4.2 GB of VRAM solely for the loss step), resulting in Out-Of-Memory (OOM) failures.  
+**The Solution**: Implemented a custom chunked loss with `chunk_size = 64`. Logits were computed in slices, keeping total peak VRAM stable at **~8.2 GB** out of 16 GB.
 
-### Breakthrough 3: LoRA OpaqueTensor Offloading
-DirectML manages memory through Direct3D opaque memory handles. Attempting to call standard Hugging Face `save_pretrained()` on DirectML LoRA modules causes `RuntimeError: Cannot access storage of OpaqueTensorImpl`.  
-**The Fix**: Custom serialization script extracted each adapter tensor, copied it to system RAM via `.cpu()`, and wrote pristine SafeTensors weights.
+### 3. LoRA OpaqueTensor Serialization Offloading
+DirectML manages memory using Direct3D opaque tensor descriptors. Standard Hugging Face `save_pretrained()` calls fail with `RuntimeError: Cannot access storage of OpaqueTensorImpl`.  
+**The Solution**: Custom adapter extraction offloaded each tensor to host RAM via `.cpu()` before serializing to clean, standard SafeTensors format.
 
 ---
 
-## 📊 4. Training Specifications & Hyperparameters
+## 📊 5. Training Specifications & Hyperparameters
 
 | Hyperparameter | Setting | Rationale |
 | :--- | :--- | :--- |
-| **Base Architecture** | `google/gemma-2-2b-it` (2.61B parameters) | Gemma 2 architecture with Sliding Window Attention (4096) + Global Attention. |
+| **Base Model** | `google/gemma-2-2b-it` (2.61B parameters) | Gemma 2 architecture with Sliding Window Attention (4096) + Global Attention. |
 | **Hardware** | AMD Radeon RX 7600 XT 16GB GDDR6 | DirectML backend on Windows 11. |
 | **LoRA Target Modules** | **All 7 Linear Layers** (`q, k, v, o, gate, up, down`) | Adapting both attention projection and MLP representation capacity. |
 | **LoRA Rank / Alpha** | $r = 32$, $\alpha = 64$, $\text{Dropout} = 0.05$ | Expanded capacity to prevent catastrophic forgetting. |
@@ -164,17 +197,17 @@ DirectML manages memory through Direct3D opaque memory handles. Attempting to ca
 
 ---
 
-## 🚀 5. How to Deploy and Run
+## 🚀 6. How to Deploy and Run
 
 ### A. Via Ollama (Instant Local Serving)
 
-The model is packaged in both FP16 and ultra-fast Q4_K_M GGUF formats:
+The model is pre-packaged and verified in both full FP16 and ultra-compact Q4_K_M GGUF formats:
 
 ```powershell
-# Run the ultra-fast quantized model (1.6 GB, >30 tokens/s):
+# Run the ultra-fast quantized model (1.6 GB, >30 tokens/sec):
 ollama run sovereign-gemma2:q4
 
-# Or run directly from Hugging Face via Ollama:
+# Or pull and run directly from Hugging Face via Ollama:
 ollama run hf.co/KolmogorovAcc/sovereign-anthology-gemma-2-2b:sovereign_anthology_gemma2_2b_q4_k_m.gguf
 ```
 
@@ -218,9 +251,9 @@ print(tokenizer.decode(outputs[0], skip_special_tokens=False))
 
 ---
 
-## 🎯 6. Canonical Output Anatomy
+## 🎯 7. Canonical Output Anatomy
 
-When evaluated on the prompt above, the model produces the following verified output:
+When evaluated on the telemetry prompt above, the model produces this exact, verified operational tradecraft:
 
 ```markdown
 <thought>
@@ -252,7 +285,7 @@ After-action (30d): Perform a 30-day post-operational review analyzing enterpris
 
 ---
 
-## 📚 7. Theoretical Citations
+## 📚 8. Theoretical Citations
 
 1. **Heuer, Richards J. Jr.** (1999). *Psychology of Intelligence Analysis*. Center for the Study of Intelligence, Central Intelligence Agency (CIA).
 2. **National Security Agency (NSA)**. *Cryptolog Bulletin Series (1974–1997)*. Declassified under FOIA / CREST.
@@ -265,4 +298,4 @@ After-action (30d): Perform a 30-day post-operational review analyzing enterpris
 
 ## 🛡️ License & Attributions
 
-This model is built upon **Google Gemma 2** and is governed by the [Gemma Terms of Use](https://ai.google.dev/gemma/terms). All historical doctrine references derive strictly from declassified, publicly released United States Government publications in the public domain.
+This project is built upon **Google Gemma 2** and is governed by the [Gemma Terms of Use](https://ai.google.dev/gemma/terms). All underlying historical doctrine references derive strictly from declassified, publicly released United States Government publications in the public domain.
