@@ -26,7 +26,26 @@ library_name: transformers
 [![Ollama Ready](https://img.shields.io/badge/Ollama-sovereign--gemma2-black)](https://ollama.com)
 [![Built with Antigravity](https://img.shields.io/badge/Orchestrated%20with-Antigravity%20(agy)-purple)](https://github.com/google-deepmind)
 
-**Sovereign Gotham** is an autonomous operational intelligence, problem-solving, and decision-making platform grounded in the **Palantir Metamodel (Gotham, Foundry, and AIP - Artificial Intelligence Platform)**. Operating **100% locally, air-gapped, and sovereignly**, it is accelerated natively on consumer **AMD Radeon RX 7600 XT (16 GB GDDR6)** hardware via Microsoft DirectML and distilled from authentic declassified US Intelligence & Defense tradecraft (**CIA, NSA, US Army, DoD**).
+---
+
+### 🕵️‍♂️ Ever Imagined Having Your Own Private Intelligence Agency as an AI Model?
+
+Most language models today act as polite chatbots: they offer conversational summaries, generic advice, and surface-level bullet points. But when the stakes are existential — when critical production services fail, corporate partnerships fracture, infrastructure is compromised, or you are facing high-consequence decisions under severe uncertainty — **you don't need a conversational chatbot. You need a dedicated Directorate of Intelligence on your team.**
+
+**What if you could run an autonomous operational intelligence analyst directly on your local workstation — 100% private, offline, and air-gapped?**
+
+That is the genesis of **Sovereign Gotham / Sovereign Anthology**.
+
+Rather than feeding an AI thousands of old, dusty Cold War memos and forcing it to memorize historical trivia, we mined thousands of declassified operational manuals from the **CIA, NSA, US Army, and Department of Defense**. From these archives, we extracted an **Anthology of universal decision principles** and fused them with **Palantir's battle-tested operational decision metamodel (Gotham, Foundry, and AIP)**.
+
+When you present this model with a noisy, complex, or high-pressure dilemma, it does not guess:
+* 🔍 **It formulates competing hypotheses ($H_1, H_2, H_3$)** using Richards J. Heuer Jr.’s famous CIA *Analysis of Competing Hypotheses (ACH)* framework.
+* 🛡️ **It actively hunts for evidence that *refutes* weak options**, systematically eliminating confirmation bias.
+* ⚡ **It calculates resource decay and triage** using NSA operational methods when incoming task volume exceeds available bandwidth.
+* 📋 **It outputs an auditable, numbered Operational Protocol** with hard quantitative circuit breakers and stop-loss abort criteria.
+* 🔄 **It institutes a strict 30-Day After-Action Review (AAR)** protocol to measure performance drift and recalibrate future criteria.
+
+All of this runs **100% locally and sovereignly on consumer hardware (AMD Radeon RX 7600 XT)**, ensuring zero cloud dependency and zero data leakage.
 
 ---
 
