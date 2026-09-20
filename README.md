@@ -1,19 +1,24 @@
 # Sovereign Gotham // Operational Intelligence & Universal Cognitive Engine
 
-Plataforma de inteligência tática, resolução de problemas e tomada de decisão fundamentada no metamodelo da **Palantir (Gotham, Foundry e AIP - Artificial Intelligence Platform)**. O sistema opera de forma **100% soberana, local e air-gapped**, acelerado nativamente por hardware **AMD Radeon RX 7600 XT (16 GB GDDR6)** via DirectML e destilado a partir do tradecraft metodológico autêntico da Comunidade de Defesa e Segurança dos Estados Unidos (**NSA, US Army, DoD, FBI e CIA**).
+[![Hugging Face Model](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Sovereign--Anthology--Gemma--2--2B-ffd21e)](https://huggingface.co/KolmogorovAcc/sovereign-anthology-gemma-2-2b)
+[![License: Gemma](https://img.shields.io/badge/License-Gemma-blue.svg)](https://ai.google.dev/gemma/terms)
+[![DirectML Accelerated](https://img.shields.io/badge/Hardware-AMD%20Radeon%20RX%207600%20XT-ed1c24)](https://www.amd.com)
+[![Ollama Ready](https://img.shields.io/badge/Ollama-sovereign--gemma2-black)](https://ollama.com)
+
+Plataforma de inteligência tática, resolução de problemas e tomada de decisão fundamentada no metamodelo da **Palantir (Gotham, Foundry e AIP)**. O sistema opera de forma **100% soberana, local e air-gapped**, acelerado nativamente por hardware **AMD Radeon RX 7600 XT (16 GB GDDR6)** via DirectML e destilado a partir do tradecraft metodológico autêntico da Comunidade de Inteligência e Defesa dos EUA (**CIA, NSA, US Army e DoD**).
 
 ---
 
 ## 🏛️ 1. A Filosofia: Metodologia Pura vs. Fatos Históricos
 
-Um erro comum em inteligência artificial aplicada a dados históricos é tentar forçar o modelo a "decorar" o texto de milhares de documentos desclassificados antigos (ex: cabogramas e memorandos da Guerra Fria dos anos 1950 a 1980). Isso causa poluição por ruído de OCR e alucinações burocráticas irrelevantes.
+Um erro comum em IA aplicada a dados de inteligência é tentar forçar o modelo a memorizar fatos passados ou cabogramas antigos da Guerra Fria. Isso gera poluição por ruído de OCR e alucinações burocráticas irrelevantes.
 
-O **Sovereign Gotham** implementa uma separação ontológica estrita em duas camadas desacopladas:
+O **Sovereign Gotham** implementa uma separação ontológica estrita em duas camadas:
 
 1. **Camada de Evidências Fáticas (Vector Store / ChromaDB + Knowledge Graph)**:
-   - Os 16.436 documentos brutos (153 MB de texto) da base governamental residem no banco vetorial para recuperação factual (RAG) sob demanda estrita.
-2. **Camada de Disciplina Cognitiva (O "Cérebro" DeepSeek-R1 Distilado)**:
-   - O modelo **não memoriza fatos passados mortos**. Ele aprendeu a **metodologia cirúrgica de resolução de problemas** das agências e a projeta sobre crises reais do mundo moderno (startups, fraudes societárias, falhas de infraestrutura de software, transição acelerada de habilidades, cadeias de suprimentos e segurança física).
+   - Documentos governamentais brutos residem no banco vetorial para recuperação factual (RAG) sob demanda estrita.
+2. **Camada de Disciplina Cognitiva (O "Cérebro" Soberano Gemma 2 / DeepSeek)**:
+   - O modelo **não memoriza fatos passados mortos**. Ele aprendeu a **metodologia cirúrgica de resolução de problemas** das agências e a projeta sobre crises reais do mundo moderno (startups, incidentes de infraestrutura crítica, segurança cibernética, fraudes societárias, trade-offs de alta complexidade).
 
 ```
 ┌────────────────────────────────────────────────────────────────────────────────────────┐
@@ -53,7 +58,7 @@ O **Sovereign Gotham** implementa uma separação ontológica estrita em duas ca
                                             │
                                             ▼
 ┌────────────────────────────────────────────────────────────────────────────────────────┐
-│ SAÍDA: AUDITABLE PALANTIR ACTION BLUEPRINT (JSON)                                      │
+│ SAÍDA: AUDITABLE PALANTIR ACTION BLUEPRINT (JSON / PROTOCOL)                           │
 │ • Objects: NSASignalVector, FBIActorProfile, CIAHypothesisMatrix, DoDDoctrine          │
 │ • Links: CORRELATES_WITH, EVALUATES_HYPOTHESIS, COMMANDS_ACTION                        │
 │ • Actions: Fases cronológicas, limites de engajamento e gatilhos de aborto imediato    │
@@ -62,149 +67,98 @@ O **Sovereign Gotham** implementa uma separação ontológica estrita em duas ca
 
 ---
 
-## 📚 2. O Arsenal das 107 Metodologias Autênticas
+## 🚀 2. Novo Marco: Sovereign Anthology — Gemma 2 2B
 
-Foram minerados **107 protocolos doutrinários puros** diretamente das fontes primárias das agências, catalogados em `storage/extracted_agency_methodologies.json` e indexados no ChromaDB sob a tag `classification: UNCLASSIFIED_DOCTRINE`:
+Evoluindo a partir das primeiras iterações experimentais, consolidamos o modelo de produção **Sovereign Anthology — Gemma 2 2B**:
 
-* **NSA (58 volumes completos do *Cryptolog Journal*)**:
-  - *Perishable Pipeline Capacity Allocation and Triage Protocol (PPCATP)*
-  - *Bifurcated Semantic-Data Element Rectification Protocol*
-  - *Dynamic Signal Rupture and Target Re-Acquisition Protocol*
-  - *Dynamic Containerized Reconfiguration (DCR)*
-  - *Unified Focal-Point Advisory Fusion (EWAE Framework)*
-* **US Army / Exército (16 manuais doutrinários e relatórios de combate DTIC)**:
-  - *Auftragstaktik / Mission Command Framework (FM 3-0 Operations)*
-  - *Empirical Performance Decrement Quantification (EPDQ-ODR / Friction Tax)*
-  - *Acoustic Signal State-Machine Orchestration (ASSO)*
-  - *Cross-Coalition Doctrinal Refactoring Loop*
-* **DoD Conjunto (3 manuais de comando de estado-maior)**:
-  - *Joint Targeting Cycle & Deconfliction*
-  - *Rules of Engagement (ROE) Boundary Constraints*
-  - *Calibrated Escalatory Probing and Abort Thresholds*
-* **FBI (Dossiês forenses e manuais de investigação)**:
-  - *Asymmetric Dual-Track Forensic Inquest (Procedural Estoppel Vectoring)*
-  - *Follow-The-Money & RICO Incentive Network Triangulation*
-  - *Blind Corroboration & Evidence Provenance Ledger*
-* **CIA (29 relatórios analíticos de alta relevância)**:
-  - *Richards J. Heuer Jr. Analysis of Competing Hypotheses (ACH)*
-  - *Cross-Echelon Divergence & Patron-Proxy Silence Profiling*
-  - *Spatial-Behavioral Intent Triangulation & Calibrated Deterrence*
-  - *Telemetry-Grounded Intent Bounding (TGIB)*
+* **Base Foundation**: Google Gemma 2 2B-IT (Arquitetura moderna com Sliding Window Attention e Logit Soft-capping).
+* **Destilação Cognitiva Teacher-Student**: Extração supervisionada via **Google Gemini**, transformando doutrinas de inteligência em 2.334 amostras ricas em telemetria analítica real (P99, saturação de filas, ARR em risco, retração de erros).
+* **Treinamento SFT de Precisão Total (DirectML)**:
+  - 1.752 passos de otimização (3 épocas completas, ~8h15m de treino dedicado na GPU AMD Radeon RX 7600 XT 16GB).
+  - Curva de convergência: Loss inicial **7.38** $\rightarrow$ Loss final **0.0001**.
+  - All-Linear LoRA ($r=16, \alpha=32$) em todos os módulos lineares (`q_proj`, `k_proj`, `v_proj`, `o_proj`, `gate_proj`, `up_proj`, `down_proj`).
+* **Fusão Standalone (Merged Weights)**: Pesos LoRA absorvidos sem latência residual em precisão FP16 SafeTensors.
+* **Formatos de Distribuição**:
+  - **FP16 SafeTensors**: Para inferência nativa em Python via Hugging Face Transformers.
+  - **GGUF FP16**: Binário completo de 5.2 GB para Ollama / llama.cpp.
+  - **GGUF Q4_K_M**: Binário quantizado ultra-rápido de 1.6 GB (>30 tokens/s localmente).
 
 ---
 
-## ⚡ 3. Arquitetura de Destilação e Treinamento
+## ⚡ 3. Engenharia de Aceleração AMD Radeon (DirectML)
 
-O modelo foi construído pelo paradigma **Professor-Aluno (Teacher-Student Cognitive Distillation)**:
+Para viabilizar o treinamento e fusão em hardware de consumo AMD (RDNA3 / RX 7600 XT 16GB GDDR6), foram desenvolvidas soluções de kernel pioneiras:
 
-```
-┌───────────────────────────────────────────────────────────────┐
-│ O PROFESSOR: Gemini 3.8 Flash High (AGY CLI Engine)           │
-│ • Grounding: 107 Metodologias + Metamodelo Palantir O-L-A     │
-│ • Gera cenários orgânicos com métricas reais de engenharia    │
-│ • Produz cadeias de raciocínio profundo <thought>...</thought> │
-└───────────────────────────────┬───────────────────────────────┘
-                                │
-                                ▼ (3.198 Amostras Master)
-┌───────────────────────────────────────────────────────────────┐
-│ O ALUNO: DeepSeek-R1-Distill-Qwen-1.5B                         │
-│ • Otimizado via DirectML nativo na AMD Radeon RX 7600 XT     │
-│ • Batch Size: 1, Gradient Accumulation: 4, LoRA r=16, a=32    │
-│ • Loss convergida de 4.9676 para ~0.70                        │
-└───────────────────────────────┬───────────────────────────────┘
-                                │
-                                ▼ (Merge & Unload)
-┌───────────────────────────────────────────────────────────────┐
-│ MODELO UNIFICADO AUTÔNOMO (D:\sovereign_models\...)          │
-│ • Pesos integrados em float16 (3.55 GB)                       │
-│ • Execução local a 20+ tokens/segundo na GPU                  │
-└───────────────────────────────────────────────────────────────┘
-```
+1. **DirectML Soft-Capping Kernel Fix**:
+   - O `torch.tanh` nativo do operador Gemma 2 falha em tensores FP16 no dispatcher DirectML (`CreateOperator`). O cálculo foi redirecionado em ponto flutuante FP32:
+     $$\text{scores} = \text{softcap} \times \tanh\left(\frac{QK^T}{\sqrt{d_k} \times \text{softcap}}\right)_{\text{float32}}$$
+2. **Chunked Cross-Entropy Loss**:
+   - Evitou picos de memória de vocabulário (256.000 tokens) segmentando o cálculo de perda em fatias de 64 tokens, mantendo o consumo de VRAM estável em ~8.2 GB dos 16 GB disponíveis.
+3. **OpaqueTensor DirectML LoRA Offloading**:
+   - Extração e offload seguro de estado do adaptador para a RAM do sistema (`v.cpu()`), contornando restrições de ponteiro do backend Windows.
 
 ---
 
-## 💻 4. Aceleração de Hardware AMD (DirectML)
+## 📦 4. Como Executar Localmente
 
-O pipeline foi projetado especificamente para hardware **AMD Radeon**:
-* **Placa de Vídeo**: AMD Radeon RX 7600 XT (16 GB GDDR6 VRAM);
-* **Backend**: `torch_directml` vinculado explicitamente ao `Device Index 1` (isolando a APU integrada para evitar OOM);
-* **Workarounds de Engenharia**:
-  - Supressão de máscara de atenção (`attention_mask`) em tensores DirectML para prevenir overflow de inteiros em kernels de atenção;
-  - Despejo de tensores de estado para CPU antes da serialização SafeTensors (`cpu_lora`);
-  - Fusão direta de matrizes LoRA ($W = W_0 + \frac{\alpha}{r}(B \times A)$) para eliminar a sobrecarga de inferência de adaptadores em tempo de execução.
+### Via Ollama (Recomendado)
 
----
-
-## 🚀 5. Como Usar
-
-### Instalação de Dependências
-Certifique-se de estar no ambiente virtual Python 3.12:
-```powershell
-pip install -r requirements.txt
-pip install torch-directml peft transformers chromadb networkx pydantic
-```
-
-### 1. Inferência Direta via Linha de Comando (CLI)
-
-Analise qualquer problema em linguagem natural diretamente no terminal:
+O modelo já está totalmente compatível e registrado no Ollama:
 
 ```powershell
-# Exemplo 1: Investigação de Anomalia de Radar / Crise de Sensores
-python cli/sovereign_inference.py "Investigue anomalia de sinal captada na estação radar costeira sem AIS"
+# Versão ultra-rápida quantizada (1.6 GB):
+ollama run sovereign-gemma2:q4
 
-# Exemplo 2: Estratégia de Negócios / Conflito Societário em Startup
-python cli/sovereign_inference.py "Startup com queda de 45% no fluxo de caixa livre e conflito grave entre fundadores"
-
-# Exemplo 3: Aquisição Acelerada de Habilidades
-python cli/sovereign_inference.py "Como acelerar o aprendizado de um idioma para negócios em 6 meses?"
+# Versão precisão total FP16 (5.2 GB):
+ollama run sovereign-gemma2
 ```
 
-### 2. Modo Interativo Contínuo
-Abra o console interativo de inteligência em tempo real:
-```powershell
-python cli/sovereign_inference.py --interactive
-```
+### Via Hugging Face Transformers (Python)
 
-No modo interativo:
-* Digite sua pergunta ou diretiva operacional;
-* O sistema ativa a recuperação ontológica no ChromaDB (`UNCLASSIFIED_DOCTRINE`);
-* O modelo delibera em `<thought>` passando pelas 4 agências;
-* Emite o blueprint executável em JSON no padrão Palantir.
-* Digite `exit` para sair.
+```python
+import torch
+from transformers import AutoModelForCausalLM, AutoTokenizer
+
+model_id = "KolmogorovAcc/sovereign-anthology-gemma-2-2b"
+
+tokenizer = AutoTokenizer.from_pretrained(model_id)
+model = AutoModelForCausalLM.from_pretrained(
+    model_id,
+    torch_dtype=torch.float16,
+    device_map="auto"
+)
+
+prompt = """<bos><start_of_turn>user
+Civilian problem [business]: A critical payment processing queue is failing with 450% backlog.
+Operating principle (NSA): Prioritize processing operations by evaluating time-sensitivity, anticipated volume, and value.
+<end_of_turn>
+<start_of_turn>model
+"""
+
+inputs = tokenizer(prompt, return_tensors="pt").to(model.device)
+outputs = model.generate(**inputs, max_new_tokens=400, temperature=0.6, top_p=0.9)
+print(tokenizer.decode(outputs[0], skip_special_tokens=False))
+```
 
 ---
 
-## 🛠️ 6. Scripts Operacionais do Repositório
+## 🎯 5. Estrutura de Resposta Operacional do Modelo
 
-| Caminho | Função |
-| :--- | :--- |
-| `cli/sovereign_inference.py` | Motor de inferência tática com RAG ontológico e aceleração DirectML na GPU. |
-| `ingestion/extract_all_agency_methodologies.py` | Minerador paralelo multi-threaded que extrai metodologias puras dos arquivos da NSA, Exército, DoD, CIA e FBI. |
-| `distillation/gemini_organic_distiller.py` | Motor de destilação professor-aluno usando Gemini para gerar raciocínio cognitivo orgânico. |
-| `training/train_directml_r1.py` | Script de treinamento LoRA nativo para GPU AMD via DirectML. |
-| `scripts/merge_sovereign_model.py` | Funde os adaptadores LoRA nos pesos base para gerar o modelo standalone unificado. |
-| `ontology/osdk_client.py` | Cliente OSDK nativo Palantir em Python com travessia de grafos `.pivot_to()`. |
-| `ontology/graph.py` | Gerenciador de grafo de conhecimento Gotham (NetworkX + Pydantic v2). |
-| `storage/vector_store.py` | Armazenamento vetorial com fallback tolerante a falhas (ChromaDB + TF-IDF). |
+O modelo responde estruturando todo o fluxo de tomada de decisão:
 
----
-
-## 🧪 7. Validação e Testes Automatizados
-
-A integridade ontológica e os contratos de I/O são validados continuamente:
-
-```powershell
-pytest tests/
-```
-
-**Resultado dos Testes**:
-* `tests/test_distillation_suite.py`: **5/5 passed**
-* `tests/test_sovereign_gotham.py`: **6/6 passed**
-* `tests/test_sovereign_osdk_and_scrapers.py`: **7/7 passed**
-* `tests/test_universal_agency_ontology.py`: **5/5 passed**
-* **Status**: **23 testes aprovados (100% de sucesso)**.
+1. **`<thought>` (Matriz Cognitiva Richards Heuer - CIA)**:
+   - **Hypotheses ($H_1, H_2, H_3$)**: Formulação de hipóteses concorrentes e mutuamente exclusivas.
+   - **Diagnostic Evidence**: Foco na busca por evidências que *refutam* hipóteses fracas, combatendo o viés de confirmação.
+   - **Known Gaps**: Lacunas de informação crítica identificadas.
+   - **Observable Indicators**: Indicadores empíricos de validação ou aborto.
+2. **`Protocol:`**: Passos de ação numerados, com *circuit breakers* e limites quantitativos estritos.
+3. **`After-action (30d):`**: Plano de revisão em 30 dias para calibrar desvios de desempenho (*performance drift*).
 
 ---
 
-## 🛡️ 8. Licença e Soberania
-Este software foi desenvolvido para execução estritamente local, sem telemetria externa, garantindo a soberania absoluta dos dados e das diretivas operacionais.
+## 🌐 6. Repositórios e Artefatos
+
+* **Hugging Face Hub**: [KolmogorovAcc/sovereign-anthology-gemma-2-2b](https://huggingface.co/KolmogorovAcc/sovereign-anthology-gemma-2-2b)
+* **Dataset de Treinamento**: `anthology_gemma_v1.jsonl` (2.334 amostras estruturadas)
+* **Checkpoints de Treino**: `D:\sovereign_models\sovereign_anthology_gemma2_lora`
+* **Modelo Standalone Unificado**: `D:\sovereign_models\sovereign_anthology_gemma2_2b`
